@@ -38,20 +38,19 @@
             <img scr="imagem-blog.png" alt="Logotipo em formato de escudo com duas asas estilizadas, uma azul-escura à esquerda e outra branca à direita.
 ">
         <div>
-            <h2>Meu primeiro post</h2>
-            <p>Por: Pablo Ribeiro</p>
-           <p>seja bem vindo ao meu novo blog, aqui. Vou compartilhar curiosidades e misterios
-            sobre AOT que talvez vc nem sabia.</p>
-            <button> 👍 <span></span>0</button>
-            <button> 🔥 <span></span>0</button>
+                <h2>Meu primeiro post</h2>
+                <p>Por: Pablo Ribeiro</p>
+                <p>seja bem vindo ao meu ptimeiro blog, aqui. Vou compartilhar curiosidades e misterios
+                sobre AOT que talvez vc nem sabia.</p>
+                <button> 👍 <span>0</span></button>
+                <button> 🔥 <span>0</span></button>
         </div>
-        
-        </main>
-    </body>
-    <script>
-        const botoes = document.querySelector("button");
+    </main>
+</body>
+<script>
+    const botoes = document.querySelector("button");
 
-        botoes.forEach(function(botao){
+    botoes.forEach(function(botao){
             botao.addEventListener("click", botaoClicado);
             function botaoClicado(){
                 console.log("fui clicado");
